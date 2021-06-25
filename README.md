@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-Preambulo del Proyecto)
+* [1. Preámbulo](#1-Preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#4-consideraciones-generales)
 * [4. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
