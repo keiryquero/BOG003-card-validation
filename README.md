@@ -2,36 +2,27 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. Preámbulo](#1-Preambulo del Proyecto)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [3. Consideraciones generales](#4-consideraciones-generales)
+* [4. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+
 
 ***
 
 ## 1. Preámbulo
 
-Tienda de camisetas estampadas con diferentes tecnicas, diseños exclusivos, Expresiones y Refranes de Venezuela y Colombia. Requiere diseño del modulo de la experiencia de compra de sus clientes.
+El proyecto consiste en crear una aplicacion web que le permita a los clientes ejecutar un pago a traves de su trajeta de credito, donde solo al momento de ingresar el numero este debe dejar visible solo los ultimos 4 digitos de la tarjeta, validar si el numero esta correcto, para procesar el pago arrojando un mensaje de "Se proceso exitosamente".
 
+El contexto que se utilizara es una tienda de camisetas estampadas con expresiones de Colombia y Venezuela.
 ## 2. Resumen del proyecto
   ## a. Quienes son mi usuario: 
-         Mi usuario es un cliente que posee una tienda de camisetas estampadas con refranes y dichos Colombianos y Venezolanos.
+         Los usuarios son personas entre 25 y 50 años que deseen comprar camisetas estampadas con dichos o Refranes.
   ## b. Objetivos del Usuario:
-         Crear una aplicacion  web que le permita a los clientes ejecutar el pago de su compra, tomando encuenta la  validacion del número de una tarjeta de crédito. Además, tendrás que implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos los últimos cuatro.
+         Crear una aplicacion  web que le permita a los clientes ejecutar la compra a traves de su tarjeta de credito, tomando encuenta la  validacion del número de una tarjeta de crédito. Además, tendrás que implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos los últimos cuatro.
   ## c. Como esta resolviendo el producto el problema:
+  Se creara un modulo donde el cliente ingresara primeramente datos basicos como: nombre y apellido, debera seleccionar que tipo de tarjeta de credito posee, ingresar el numero , indicar el nuemro de cuotas a cancelar. El numero de la tarjeta sera validado y si es correcto se le mostrara un mensaje "Se proceso exitosamente".Este debera devolverlo a la pantalla principal.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
-
-## 3. Objetivos de aprendizaje
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
 
 ### HTML y CSS
 
