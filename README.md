@@ -12,16 +12,20 @@
 
 ## 1. Preámbulo
 
-El proyecto consiste en crear una aplicacion web que le permita a los clientes ejecutar un pago a traves de su trajeta de credito, donde solo al momento de ingresar el numero este debe dejar visible solo los ultimos 4 digitos de la tarjeta, validar si el numero esta correcto, para procesar el pago arrojando un mensaje de "Se proceso exitosamente".
-
-El contexto que se utilizara es una tienda de camisetas estampadas con expresiones de Colombia y Venezuela.
+El proyecto consiste en crear una aplicacion web donde el cliente una vez realice su compra,
+el sistema debera validar el número de la tarjeta, para ello debera aplicar el algoritmo de Luhn.
+El contexto que se utilizará es una tienda de camisetas estampadas .
 ## 2. Resumen del proyecto
   ## a. Quienes son mi usuario: 
-         Los usuarios son personas entre 25 y 50 años que deseen comprar camisetas estampadas con dichos o Refranes.
+         Los usuarios son personas que deseen comprar camisetas estampadas con dichos o Refranes.
   ## b. Objetivos del Usuario:
-         Crear una aplicacion  web que le permita a los clientes ejecutar la compra a traves de su tarjeta de credito, tomando encuenta la  validacion del número de una tarjeta de crédito. Además, tendrás que implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos los últimos cuatro.
+        Comprar su camiseta utilizando como medio de pago tarjetas.
   ## c. Como esta resolviendo el producto el problema:
-  Se creara un modulo donde el cliente ingresara primeramente datos basicos como: nombre y apellido, debera seleccionar que tipo de tarjeta de credito posee, ingresar el numero , indicar el nuemro de cuotas a cancelar. El numero de la tarjeta sera validado y si es correcto se le mostrara un mensaje "Se proceso exitosamente".Este debera devolverlo a la pantalla principal.
+  Se creara un modulo donde el cliente debera seleccionar la camiseta que desea comprar, 
+  luego el sistema solicitara que ingrese el numero de su terjeta con la que realizara su pago,
+  una vez ingresado el numero este debera validarlo y arrojará un mensaje 
+  donde le indicará si su validación fue exitosa. para finalizar debera hacer click en el Boton de procesar pago,
+  y aparecerá un mensaje donde este le indicara que llego al fin del Proceso, y lo retornará a la pantalla inicial.
 
 
 ### HTML y CSS
