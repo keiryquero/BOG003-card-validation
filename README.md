@@ -4,11 +4,10 @@
 
 * [1. Preámbulo](#1-Preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Consideraciones generales](#4-consideraciones-generales)
+* [3. Prototipos](#3-Prototipos)
 * [4. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 
 
-***
 
 ## 1. Preámbulo
 
@@ -27,81 +26,8 @@ El contexto que se utilizará es una tienda de camisetas estampadas .
   donde le indicará si su validación fue exitosa. para finalizar debera hacer click en el Boton de procesar pago,
   y aparecerá un mensaje donde este le indicara que llego al fin del Proceso, y lo retornará a la pantalla inicial.
 
-
-### HTML y CSS
-
-* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de selectores de CSS.
-
-### DOM
-
-* [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
-
-### JavaScript
-
-* [ ] Manipulación de strings.
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
-* [ ] Uso de bucles (for | for..in | for..of | while)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
-* [ ] Declaración correcta de variables (const & let)
-
-### Testing
-
-* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
-
-### Estructura del código y guía de estilo
-
-* [ ] Organizar y dividir el código en módulos (Modularización)
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
-* [ ] Uso de linter (ESLINT)
-
-### Git y GitHub
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
-
-### UX
-
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener feedback e iterar.
-* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
-
-## 4. Consideraciones generales
-
-* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
-  sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
-
-## 5. Criterios de aceptación mínimos del proyecto
-
-Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
-
-### Definición del producto
-
-En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
-
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
-
-### Interfaz de usuario (UI)
-
-La interfaz debe permitir al usuario:
-
-* Insertar el número que queremos validar.
-* Ver el resultado si es válido o no.
-* Ocultar todos los dígitos de su número de tarjeta menos los últimos
-4 caracteres.
-* No debe poder ingresar un campo vacío.
-
-### UX (Diseño de experiencia de usuario)
-
+### 3. Prototipos:
+([Prototipos](Prototipo2.png))
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y
 cómo tu aplicación lo soluciona.
 
