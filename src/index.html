@@ -8,36 +8,36 @@
 </head>
 
 <body>
-      <header class="Cabecera">
-      <h1>He dicho!!!</h1>
-      <h3>"Expresion Cultura con Estilo"</h3>
-    
-    </header>
-    
-    <main> 
-      <div>
-        <table>
-        
-          <th><img src="imagenes TC/Foto1.jpeg" alt="Foto1"/></th>                   
-          <th><img src="imagenes TC/Foto2.jpeg" alt="Foto2"/></th>
-          <th><img src="imagenes TC/Foto3.jpeg" alt="Foto3"/></th>                           
-      
-        </table>
-      <button type="button">Comprar</button>
+  <header class="Cabecera">
+    <h1>He dicho!!!</h1>
+    <h3>"Expresion Cultura con Estilo"</h3>
+
+  </header>
+
+  <main>
+    <section id="primeraVista">
+      <div class="imagenes1">
+        <img src="imagenes TC/Foto1.jpeg" alt="Foto1" /></th>
+        <img src="imagenes TC/Foto2.jpeg" alt="Foto2" /></th>
+        <img src="imagenes TC/Foto3.jpeg" alt="Foto3" /></th>
       </div>
-        
-        
-    </main>
-       
-    <footer>
-      <p>Tienda de camisetas @he dicho_Refranes carrera 55 #4D-12 <br>
-        Bogota, Colombia<br>
-        Todos Los derechos Reservados  he Dicho!! 2021
-      </p>
-    </footer>
-
-  
-  <script src="index.js" type="module"></script>
+      <button type="button" onclick="botonVista()" id="botonComprar">Comprar</button>
+    </section>
+    <section id="segundaVista">
+      <img id="Tarjeta_BNB" src="Imagenes TC/Tarjeta_BNB.png" alt="Tarjeta_BNB">
+      <form id="formtarjeta">
+        <label for="tarjeta">Ingrese el numero de tarjeta</label>
+        <input type="text" name="tarjeta" id="tarjeta" maxlength="16">
+        <button type="button" onclick=validar()>Validar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Tienda de camisetas @he dicho_Refranes carrera 55 #4D-12 <br>
+      Bogota, Colombia<br>
+      Todos Los derechos Reservados he Dicho!! 2021
+    </p>
+  </footer>
+  <script src="index.js"></script>
 </body>
-
 </html>

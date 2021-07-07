@@ -6,29 +6,52 @@
        background-color: darkorange;
        padding: 4em;
        border: 1px solid black;
-       
-   }   
+    }   
+
 h1{font-size:80px;font-family: mistral;text-align: center; }
        
-h3{font-size: 20;font-family: Tahoma;text-align: center;}
+h3{font-size: 20px;font-family: Tahoma;text-align: center;}
 
-div{
-    padding: 4em;
-       border: 1px solid black;
+#primeraVista{
+       width: 500px;
+       height: 300px;       
+       padding: 20px;
+       margin:20px;
+      
 }
         
-img {
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    padding:4%; 
-    margin:2%; 
-}
-   
-footer {
-font-size: 20;font-family: Tahoma;text-align: center;
-            }
+.imagenes1 {
 
-            
+    width: 500px;
+    height: 500px;
+    padding:4%; 
+    margin: 20px;
+    display:flex;
+    align-content: center;     
+}
+#segundaVista{
+    display:none;
+}
+
+#botonComprar{
+    background-color: rgb(7, 204, 7);
+    font-family:tahoma;
+    font-style: italic;
+    margin-left: 50vw;
+    }
+footer {
+font-size: 20;font-family: Tahoma;text-align: center;margin-top: 300px;
+}
+
+#Tarjeta_BNB{
+    /*margin-right: 500px;
+    margin-left: 500px;*/
+    padding: 4em;
+    width: 30%;
+    height: 30%;
+    /*display:flex;*/
+    align-items: flex-end;
+}
+
 
     
