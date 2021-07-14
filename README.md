@@ -27,7 +27,7 @@ El contexto que se utilizará es una tienda de camisetas estampadas .
   y aparecerá un mensaje donde este le indicara que llego al fin del Proceso, y lo retornará a la pantalla inicial.
 
 ### 3. Prototipos:
-([Prototipos](Prototipo2.png))
+![Prototipo2](src/Imagenes TC/Prototipo 2.png)
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y
 cómo tu aplicación lo soluciona.
 
