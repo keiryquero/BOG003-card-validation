@@ -21,14 +21,14 @@
         <img src="imagenes TC/Foto2.jpeg" alt="Foto2" /></th>
         <img src="imagenes TC/Foto3.jpeg" alt="Foto3" /></th>
       </div>
-      <button type="button" onclick="botonVista()" id="botonComprar">Comprar</button>
+      <button type="button" id="botonComprar">Comprar</button>
     </section>
     <section id="segundaVista">
       <img id="Tarjeta_BNB" src="Imagenes TC/Tarjeta_BNB.png" alt="Tarjeta_BNB">
-      <form id="formtarjeta">
-        <label for="tarjeta">Ingrese el numero de tarjeta</label>
-        <input type="text" name="tarjeta" id="tarjeta" maxlength="16">
-        <button type="button" onclick=validar()>Validar</button>
+      <form action="" id="formulario">
+        <label for="inputNumero">Ingrese el numero de tarjeta</label>
+        <input type="text" id="inputNumero" maxlength="16">
+        <button type="button" id="validar">Validar</button>
       </form>
     </section>
   </main>
@@ -38,6 +38,7 @@
       Todos Los derechos Reservados he Dicho!! 2021
     </p>
   </footer>
-  <script src="index.js"></script>
+  <script src="index.js" type="module"></script>
 </body>
+
 </html>

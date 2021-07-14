@@ -29,29 +29,30 @@ h3{font-size: 20px;font-family: Tahoma;text-align: center;}
     display:flex;
     align-content: center;     
 }
+#segundaVista,#Tarjeta_BNB{
+    
+    padding: 4em;
+    width: 50%;
+    height: 50%;
+    margin: left 100%;
+}
+  
 #segundaVista{
     display:none;
+
 }
 
 #botonComprar{
     background-color: rgb(7, 204, 7);
     font-family:tahoma;
     font-style: italic;
-    margin-left: 50vw;
+    margin-left: 48vw;
     }
 footer {
 font-size: 20;font-family: Tahoma;text-align: center;margin-top: 300px;
 }
 
-#Tarjeta_BNB{
-    /*margin-right: 500px;
-    margin-left: 500px;*/
-    padding: 4em;
-    width: 30%;
-    height: 30%;
-    /*display:flex;*/
-    align-items: flex-end;
-}
+
 
 
     
