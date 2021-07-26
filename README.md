@@ -6,9 +6,6 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Prototipos](#3-Prototipos)
 
-
-
-
 ## 1. Preámbulo
 
 El proyecto consiste en crear una aplicacion web donde el cliente una vez realice su compra,
@@ -22,9 +19,8 @@ El contexto que se utilizará es una tienda de camisetas estampadas .
   ## c. Como esta resolviendo el producto el problema:
   Se creara un módulo donde el cliente puede visualizar las camisetas, para ello deberá validar la tarjeta para procesar su compra. Al hacer click en el boton comprar el sistema mostrara el módulo de validación, en donde el cliente debera ingrese el número de su terjeta con la que realizará su pago y este le indicara si es valida o no, luego de dicha confirmación el cliente podra finalizar el proceso.
 ### 3. Prototipos:
-<img src="imagenes TC/Prototipo 1.png"/>
-<img src="imagenes TC/Prototipo 2.png"/>
-<img src="imagenes TC/Pantalla1.png"/>
-<img src="imagenes TC/Pantalla2.png"/>
-<img src="imagenes TC/Pantalla3.png"/>
-
+<img src="Imagenes TC/Prototipo 1.png"/>
+<img src="Imagenes TC/Prototipo 2.png"/>
+<img src="Imagenes TC/Pantalla1.png"/>
+<img src="Imagenes TC/Pantalla2.png"/>
+<img src="Imagenes TC/Pantalla3.png"/>
