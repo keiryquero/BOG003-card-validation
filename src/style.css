@@ -62,20 +62,25 @@ h3{font-size: 20px;font-family: Tahoma;text-align: center;}
     font-family:tahoma;
     margin-left: 46vw;
     font-size: 20px;
+    border-radius: 5px;
 
     }
     #limpiar,#validar{
         background-color: rgb(7, 204, 7);
         font-family:tahoma;
+        font-size: 20px;
         display: inline;
+        border-radius: 5px;
                
     }
     #Fin{
         background-color: rgb(7, 204, 7);
         font-family:tahoma;
         display: block;
+        font-size: 20px;
         margin-top: 2%;
         margin-left:10%;
+        border-radius: 5px;
        
     }
 
@@ -92,11 +97,13 @@ margin-top: 25%;
     font-style:normal;
     font-family:tahoma;
     color:green;
+    font-size: 30px;
     
 }
 #terceraVista{
   border: 5px solid green;
   padding: 50px;
+
   
 }
 #gracias{
@@ -109,10 +116,12 @@ margin-top: 25%;
 #Fin2{
     background-color: rgb(7, 204, 7);
     font-family:tahoma;
-    font-size: 15px;
+    font-size: 20px;
+    border-radius: 5px;
     display: block;
     margin-top: 5%;
-    /*margin: left 60%;*/
+    margin-left: 45%;
+   
 }
 
 
