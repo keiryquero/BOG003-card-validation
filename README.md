@@ -33,6 +33,6 @@ Finalizado el Feedback se realizaron los cambios tomando en cuenta las observaci
 ## 4. Producto Final.
 El producto Final que se presenta varía de acuerdo al prototipo diseñado, puesto que el aprendizaje de algunos objetivos principalmente CSS se llevó mucho mas tiempo del previsto. Asi como aplicar y entender  la funcionalidad del DOM.
 ![Primera Pantalla](src/ImagenesTC/pantalla1.png)
-![Primera Pantalla](src/ImagenesTC/pantalla2.png)
-![Primera Pantalla](src/ImagenesTC/pantalla3.png)
+![Segunda Pantalla](src/ImagenesTC/pantalla2.png)
+![Tercera Pantalla](src/ImagenesTC/pantalla3.png)
 
